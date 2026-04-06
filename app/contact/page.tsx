@@ -101,11 +101,11 @@ export default function ContactPage() {
 
               <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-300 ml-1">Message</label>
-                <textarea 
-                  rows="4" 
-                  placeholder="Aapka message yahan likhein..."
-                  className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-500 transition"
-                ></textarea>
+          <textarea 
+  rows={4}
+  placeholder="Aapka message yahan likhein..."
+  className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-500 transition"
+/>
               </div>
 
               <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition flex items-center justify-center gap-2 group">
